@@ -112,6 +112,7 @@ CArray Sampling(char* filename, int& sample)
     {
         double currentSample = audiofile.samples[channel][i];
         timesamples[i] = currentSample;
+        cout<< timesamples[i] << endl;
     }
     /**
         Calcularea in domeniul frecventa a sample-urilor si incheierea executiei
